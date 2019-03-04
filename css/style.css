@@ -2014,6 +2014,7 @@ footer .credits {
   }
 }
 
+
 @media (max-width: 575px) {
   .box-collapse .title-box-d {
     left: 35px;
@@ -2022,4 +2023,23 @@ footer .credits {
   .box-collapse .title-box-d .title-d {
     font-size: 1.3rem;
   }
+}
+modal{
+    display: block !important; /* I added this to see the modal, you don't need this */
+}
+
+/* Important part */
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    color: white;
+    background:black;
+    height: 250px;
+    overflow-y: auto;
+    font-size: 15px;
+
+}
+.modal-img{
+  border-radius: 50%;
 }
