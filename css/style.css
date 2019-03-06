@@ -890,7 +890,7 @@ a:hover {
 
 .intro .carousel-item-a {
   position: relative;
-  height: 100vh;
+  height: 95vh;
 }
 
 .intro .carousel-item-a.bg-image {
@@ -910,7 +910,7 @@ a:hover {
   padding: 1rem 1.5rem;
   border: 2px solid #2eca6a;
   border-radius: 50px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.030em;
 }
 
@@ -934,7 +934,7 @@ a:hover {
   color: #ffffff;
   font-weight: 700;
   font-size: 2.8rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .intro .intro-subtitle {
@@ -1062,7 +1062,7 @@ a:hover {
   padding: .6rem .8rem;
   border: 2px solid #2eca6a;
   border-radius: 50px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.030em;
 }
 
@@ -1866,8 +1866,8 @@ footer .credits {
     margin-bottom: 2rem;
   }
 
-  .intro .intro-title {
-    font-size: 4.5rem;
+  .intro .intro-title { text-align: center;
+    font-size: 9rem;
   }
 
   .intro .intro-subtitle.intro-price {
